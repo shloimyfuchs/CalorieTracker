@@ -1,0 +1,32 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Private keys (sensitive)
+private_keys/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.mobileprovision
+
+# API key JSON
+private_keys/
+
+# Certificates
+*.cer
+*.p12
+*.certSigningRequest
+
+# macOS
+.DS_Store
+*.swp
+*~
