@@ -58,6 +58,6 @@ struct InputBarView: View {
         .padding(.vertical, 10)
         .glassEffect(.regular.interactive(), in: .capsule)
         .padding(.horizontal, 16)
-        .padding(.bottom, 4)
+        .padding(.bottom, 16)
     }
 }
