@@ -11,5 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Copy signing keys
+        run: |
+          cp -r /Users/shloimyfuchs/Desktop/calorie\ tracker/private_keys ./private_keys
+
       - name: Deploy to TestFlight
         run: ./deploy.sh
